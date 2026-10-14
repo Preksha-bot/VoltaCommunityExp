@@ -2,7 +2,6 @@
 
 A founder community application for sharing current challenges and experience, finding relevant peers, coordinating small-group conversations, and reviewing community stories. This repository contains a working fictional V1 demo and a gated Google Apps Script implementation.
 
-**Current status: DEMO / DRAFT_ONLY.** The local demo uses synthetic people, disposable in-memory data, and fake email/calendar transports. Google integration source is included; live resources and activation still require the owner checks in [deployment](docs/deployment.md) and [live gates](docs/live-gates.json).
 
 ## Features
 
@@ -94,10 +93,5 @@ The local server and Apps Script backend share the domain and service layers. Ad
 
 See the [full workflow diagram](docs/volta-pulse-end-to-end.svg) and [architecture decisions](docs/volta-pulse-architecture-decisions.svg) for more detail.
 
-## Decisions
-
-One combined unsolicited digest per Halifax matching week, at least seven days apart, with at most three genuinely new topic cards. Unanswered offers close after seven days and begin a 30-day cooldown; accepted interest lasts 14 days. A meeting requires at least three distinct companies, a common accepted slot, and explicit identity disclosure. V1 has one poll/cohort, at most five representatives and one active group per founder. Booked meetings are separate from future match-email preferences.
-
-The monthly snapshot shows exact role counts only when at least two consented companies contribute to the topic. It is a frozen batch, and revocation or expiry is applied again when displayed. Feedback records one explicit choice: internal statistics only, an anonymous story, or a story using the founder's approved company name. Story-permitted feedback creates a draft for Laura; Laura may approve, edit, regenerate or discard it without a second founder approval loop.
 
 Current launch state is **DEMO / DRAFT_ONLY**. Google adapter source and contract tests are not evidence of a live deployment. Real credentials, resources, ownership, policies, integrations, support and activation remain gated.
