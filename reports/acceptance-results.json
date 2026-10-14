@@ -1,0 +1,355 @@
+{
+  "executed_at_utc": "2026-10-13T10:56:54.957Z",
+  "fixture_clock": "2026-10-13T12:00:00Z",
+  "environment": "DEMO",
+  "external_integrations": "NOT_VERIFIED",
+  "tests": [
+    {
+      "test_name": "Company-ID login",
+      "fixture_profile": "BASE",
+      "expected_result": "Authenticate as F001; company ID is an alias, not a shared account.",
+      "test_id": "AUTH01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Cofounder login",
+      "fixture_profile": "BASE",
+      "expected_result": "Authenticate as F025; do not expose F001 private entries.",
+      "test_id": "AUTH02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Wrong password",
+      "fixture_profile": "BASE",
+      "expected_result": "Same generic error; no founder identity or account existence disclosed.",
+      "test_id": "AUTH03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Disabled login",
+      "fixture_profile": "BASE",
+      "expected_result": "Deny because the founder/company is inactive.",
+      "test_id": "AUTH04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Server-side authorization",
+      "fixture_profile": "BASE",
+      "expected_result": "Forbidden; never trust a supplied founder_id or role.",
+      "test_id": "AUTH05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Private topics",
+      "fixture_profile": "BASE",
+      "expected_result": "They may be used for matching but never for named rows or aggregate cells.",
+      "test_id": "DATA01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Expired entries",
+      "fixture_profile": "BASE",
+      "expected_result": "Exclude from matching and snapshot; expiry evaluated at read time.",
+      "test_id": "DATA02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Offboarded company",
+      "fixture_profile": "BASE",
+      "expected_result": "Exclude entirely; stale ACTIVE entry state is not sufficient.",
+      "test_id": "DATA03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Email opt-out",
+      "fixture_profile": "BASE",
+      "expected_result": "No weekly outbound opportunities, even when a topic overlaps.",
+      "test_id": "DATA04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Paused founder",
+      "fixture_profile": "BASE",
+      "expected_result": "No new matching while paused; keep preferences editable.",
+      "test_id": "DATA05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Withdrawn entries",
+      "fixture_profile": "BASE",
+      "expected_result": "Exclude immediately; preserve minimal revocation audit.",
+      "test_id": "DATA06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Unknown topic",
+      "fixture_profile": "BASE",
+      "expected_result": "Queue for review; do not auto-match it. Other mapped experience can still qualify.",
+      "test_id": "DATA07",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "One specific group topic",
+      "fixture_profile": "BASE",
+      "expected_result": "Five eligible founders but only three distinct companies C001/C002/C003.",
+      "test_id": "MATCH01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Two-company pool",
+      "fixture_profile": "BASE",
+      "expected_result": "Do not send opportunities; fewer than three eligible companies.",
+      "test_id": "MATCH02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "No new useful match",
+      "fixture_profile": "BASE",
+      "expected_result": "No digest; do not send a weekly filler newsletter.",
+      "test_id": "MATCH03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Combined digest",
+      "fixture_profile": "BASE",
+      "expected_result": "One digest with current-topic cards T01/T03 and experience card T04.",
+      "test_id": "MAIL01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Maximum three cards",
+      "fixture_profile": "BASE_MUTATION",
+      "expected_result": "F001 now has four eligible topics; send one digest with at most three.",
+      "test_id": "MAIL02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Unchanged next week",
+      "fixture_profile": "BASE_MUTATION",
+      "expected_result": "Do not repeat unchanged opportunities.",
+      "test_id": "MAIL03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Same-week retry",
+      "fixture_profile": "RETRY_SENT",
+      "expected_result": "Do not create/send a second F001 digest.",
+      "test_id": "MAIL04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Declined topic",
+      "fixture_profile": "BASE",
+      "expected_result": "Respect NOT_NOW cooldown; no peer names or decline reason disclosed.",
+      "test_id": "MAIL05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Uncertain delivery",
+      "fixture_profile": "BASE_MUTATION",
+      "expected_result": "Quarantine and reconcile; do not blindly resend.",
+      "test_id": "MAIL06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Scheduling success",
+      "fixture_profile": "GROUP_READY",
+      "expected_result": "Three companies can attend; create exactly one simulated event for G001.",
+      "test_id": "GROUP01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Distinct-company guard",
+      "fixture_profile": "SAME_COMPANY_GUARD",
+      "expected_result": "Three founders are only two companies; do not open booking.",
+      "test_id": "GROUP02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Scheduling mismatch",
+      "fixture_profile": "NO_COMMON_SLOT",
+      "expected_result": "No slot has three companies; keep pending, then close without manual scheduling chase.",
+      "test_id": "GROUP03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Withdraw before booking",
+      "fixture_profile": "GROUP_READY_MUTATION",
+      "expected_result": "Recheck; only two companies remain, so no invitation.",
+      "test_id": "GROUP04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Timezone rendering",
+      "fixture_profile": "GROUP_READY",
+      "expected_result": "Same instant; Halifax noon and St. John's 12:30 p.m. on 20 October.",
+      "test_id": "GROUP05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Daylight-saving change",
+      "fixture_profile": "BASE_MUTATION",
+      "expected_result": "Store 16:00 UTC; do not reuse October's UTC offset.",
+      "test_id": "GROUP06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Approved fixture story",
+      "fixture_profile": "STORY_CASES",
+      "expected_result": "ST001 is eligible for demo only; never send a fictional story live.",
+      "test_id": "STORY01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Partial named approval",
+      "fixture_profile": "STORY_CASES",
+      "expected_result": "Do not publish: F002 has not approved exact version 1.",
+      "test_id": "STORY02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Withdrawn story",
+      "fixture_profile": "STORY_CASES",
+      "expected_result": "Never include in future emails.",
+      "test_id": "STORY03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Edited approved text",
+      "fixture_profile": "STORY_CASES_MUTATION",
+      "expected_result": "Invalidate earlier approval; request exact new version approval.",
+      "test_id": "STORY04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Attendance is not elapsed time",
+      "fixture_profile": "STORY_CASES",
+      "expected_result": "Did not attend; exclude from usefulness denominator; do not infer attendance.",
+      "test_id": "METRIC01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Privacy threshold",
+      "fixture_profile": "BASE",
+      "expected_result": "Suppress cells below three; no exact counts or private entries exposed.",
+      "test_id": "SAFE01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Email link scanning",
+      "fixture_profile": "BASE",
+      "expected_result": "Show login/confirmation only; no state mutation.",
+      "test_id": "SAFE02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Fixture safety",
+      "fixture_profile": "BASE",
+      "expected_result": "Block email/calendar side effects; empty recipient allowlist stays closed.",
+      "test_id": "SAFE03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Global pause",
+      "fixture_profile": "BASE_MUTATION",
+      "expected_result": "Leave queued; no automated outbound email or new event creation.",
+      "test_id": "SAFE04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    },
+    {
+      "test_name": "Mobile layout",
+      "fixture_profile": "BASE",
+      "expected_result": "No horizontal overflow; controls and labels remain inside cards.",
+      "test_id": "UI01",
+      "result": "PASS",
+      "observed": "Playwright measured all tested views at 320, 360, 390, 768, 1024 and 1440px plus 200% zoom; asserted document and control containment and keyboard focus. Screenshots retained in test-results.",
+      "evidence": "tests/e2e/pulse.spec.ts"
+    },
+    {
+      "test_name": "No removed features",
+      "fixture_profile": "BASE",
+      "expected_result": "No Happier Hour integration, Explore/Radar dashboard, one-to-one path, LLM or MCP.",
+      "test_id": "SCOPE01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile.",
+      "evidence": "tests/acceptance/spec.test.ts"
+    }
+  ],
+  "browser_tests": 9,
+  "browser_passed": 9,
+  "passed": 38,
+  "failed": 0,
+  "live_integrations": "NOT_VERIFIED"
+}

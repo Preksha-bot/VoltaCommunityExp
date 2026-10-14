@@ -1,0 +1,32 @@
+{
+  "executed_at_local": "2026-10-14",
+  "environment": "DEMO / DRAFT_ONLY",
+  "full_e2e_rerun": "NOT_RUN_BY_USER_REQUEST",
+  "checks": [
+    {
+      "view": "admin",
+      "result": "PASS",
+      "observed": [
+        "Six revised feedback/story metrics are visible",
+        "Scheduling and feedback demo email drafts are visible",
+        "One AI-assisted story draft is in Laura's review workflow",
+        "Feedback, Stories to review, and Approved stories tabs are present",
+        "Topic wording exceptions is present",
+        "Record operational time is absent"
+      ]
+    },
+    {
+      "view": "founder capture and snapshot",
+      "result": "PASS",
+      "observed": [
+        "Revised founder capture heading and Skip for now action are reachable",
+        "Your Pulse current and experience cards are visible",
+        "Exact working-through and experience counts are visible",
+        "Needs-experience one-click actions are visible",
+        "Most active, Needs experience, and My topics chart filters are present",
+        "Named-sharing request actions and new-this-month items are visible"
+      ]
+    }
+  ],
+  "external_effects": "NONE"
+}

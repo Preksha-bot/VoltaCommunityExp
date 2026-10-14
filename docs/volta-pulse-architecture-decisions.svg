@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1500" viewBox="0 0 900 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Volta Pulse source files and major decisions</title>
+  <desc id="desc">A portrait source map followed by seven short product and domain decisions. RPC, authentication, and tests are omitted.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#111111"/></marker>
+    <style>
+      .title{font:700 40px Arial,sans-serif;fill:#111}.subtitle{font:18px Arial,sans-serif;fill:#333}.section{font:700 14px Arial,sans-serif;letter-spacing:2px;fill:#111}
+      .box{fill:#fff;stroke:#111;stroke-width:2.5}.accent{fill:#fff;stroke:#19B7C8;stroke-width:3}.name{font:700 21px Arial,sans-serif;fill:#111}.path{font:15px Consolas,monospace;fill:#333}
+      .flow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)}.helper{fill:#f4f4f4;stroke:#111;stroke-width:2}.helper-name{font:700 16px Arial,sans-serif;fill:#111;text-anchor:middle}.helper-path{font:13px Consolas,monospace;fill:#333;text-anchor:middle}
+      .decision{fill:#fff;stroke:#19B7C8;stroke-width:2.5}.decision-text{font:700 17px Arial,sans-serif;fill:#111;text-anchor:middle;dominant-baseline:middle}
+    </style>
+  </defs>
+  <rect width="900" height="1500" fill="#fff"/>
+  <text x="60" y="68" class="title">Volta Pulse</text><text x="60" y="103" class="subtitle">Major source files + decisions</text><text x="60" y="132" class="subtitle">RPC, authentication, and tests omitted</text>
+  <line x1="60" y1="165" x2="840" y2="165" stroke="#111" stroke-width="2"/><text x="60" y="198" class="section">SOURCE FLOW</text>
+  <g transform="translate(150 225)"><rect class="box" width="600" height="82" rx="14"/><text x="28" y="36" class="name">UI</text><text x="28" y="61" class="path">src/ui/main.ts</text></g><path class="flow" d="M450 307 V338"/>
+  <g transform="translate(150 350)"><rect class="accent" width="600" height="82" rx="14"/><text x="28" y="36" class="name">Service</text><text x="28" y="61" class="path">src/service/pulse.ts</text></g><path class="flow" d="M450 432 V463"/>
+  <g transform="translate(150 475)"><rect class="box" width="600" height="82" rx="14"/><text x="28" y="36" class="name">Domain rules</text><text x="28" y="61" class="path">src/domain/index.ts</text></g><path class="flow" d="M450 557 V588"/>
+  <g transform="translate(150 600)"><rect class="box" width="600" height="82" rx="14"/><text x="28" y="36" class="name">Jobs</text><text x="28" y="61" class="path">src/jobs/index.ts</text></g><path class="flow" d="M450 682 V713"/>
+  <g transform="translate(150 725)"><rect class="accent" width="600" height="82" rx="14"/><text x="28" y="36" class="name">Adapters</text><text x="28" y="61" class="path">src/adapters/*.ts</text></g><path class="flow" d="M450 807 V842"/>
+  <g transform="translate(90 855)"><rect class="box" width="330" height="78" rx="14"/><text x="165" y="33" class="helper-name">DEMO RUNTIME</text><text x="165" y="57" class="helper-path">Memory + fake providers</text></g>
+  <g transform="translate(480 855)"><rect class="box" width="330" height="78" rx="14"/><text x="165" y="33" class="helper-name">GOOGLE RUNTIME</text><text x="165" y="57" class="helper-path">Sheets + Gmail + Calendar</text></g>
+  <g transform="translate(90 965)"><rect class="helper" width="220" height="70" rx="12"/><text x="110" y="29" class="helper-name">EMAIL</text><text x="110" y="51" class="helper-path">src/email</text></g>
+  <g transform="translate(340 965)"><rect class="helper" width="220" height="70" rx="12"/><text x="110" y="29" class="helper-name">AI HELPERS</text><text x="110" y="51" class="helper-path">src/ai</text></g>
+  <g transform="translate(590 965)"><rect class="helper" width="220" height="70" rx="12"/><text x="110" y="29" class="helper-name">SHARED</text><text x="110" y="51" class="helper-path">src/shared</text></g>
+  <line x1="60" y1="1080" x2="840" y2="1080" stroke="#111" stroke-width="2"/><text x="60" y="1113" class="section">MAJOR DECISIONS</text>
+  <g transform="translate(60 1140)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Exact topic IDs</text></g>
+  <g transform="translate(480 1140)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Current consent wins</text></g>
+  <g transform="translate(60 1230)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Count companies</text></g>
+  <g transform="translate(480 1230)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Offer new edges</text></g>
+  <g transform="translate(60 1320)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Commit after delivery</text></g>
+  <g transform="translate(480 1320)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Consent before disclosure</text></g>
+  <g transform="translate(270 1410)"><rect class="decision" width="360" height="66" rx="14"/><text x="180" y="34" class="decision-text">Staff approves stories</text></g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1500" viewBox="0 0 900 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Volta Pulse end-to-end pipeline</title>
+  <desc id="desc">A portrait diagram showing eight stages from founder input to an approved story, with three Laura review points.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#111111"/></marker>
+    <style>
+      .title{font:700 40px Arial,sans-serif;fill:#111}.subtitle{font:18px Arial,sans-serif;fill:#333}.section{font:700 14px Arial,sans-serif;letter-spacing:2px;fill:#111}
+      .box{fill:#fff;stroke:#111;stroke-width:2.5}.step{fill:#19B7C8}.number{font:700 17px Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+      .name{font:700 23px Arial,sans-serif;fill:#111}.note{font:17px Arial,sans-serif;fill:#333}.flow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)}
+      .review{fill:#fff;stroke:#19B7C8;stroke-width:2.5}.review-name{font:700 17px Arial,sans-serif;fill:#111}.review-note{font:15px Arial,sans-serif;fill:#333}.guide{fill:none;stroke:#19B7C8;stroke-width:2;stroke-dasharray:7 7}
+    </style>
+  </defs>
+  <rect width="900" height="1500" fill="#fff"/>
+  <text x="60" y="68" class="title">Volta Pulse</text><text x="60" y="103" class="subtitle">End-to-end pipeline</text>
+  <line x1="60" y1="135" x2="840" y2="135" stroke="#111" stroke-width="2"/><text x="60" y="168" class="section">FOUNDER + SYSTEM</text><text x="650" y="168" class="section">LAURA</text>
+  <g transform="translate(60 195)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">1</text><text x="82" y="44" class="name">Pulse</text><text x="82" y="75" class="note">Topics + consent</text></g>
+  <path class="flow" d="M320 300 V337"/>
+  <g transform="translate(60 350)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">2</text><text x="82" y="44" class="name">Snapshot</text><text x="82" y="75" class="note">Privacy-safe counts</text></g>
+  <path class="flow" d="M320 455 V492"/>
+  <g transform="translate(60 505)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">3</text><text x="82" y="44" class="name">Match</text><text x="82" y="75" class="note">Topic + company rules</text></g>
+  <path class="flow" d="M320 610 V647"/>
+  <g transform="translate(60 660)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">4</text><text x="82" y="44" class="name">Email</text><text x="82" y="75" class="note">Up to 3 opportunities</text></g>
+  <path class="flow" d="M320 765 V802"/>
+  <g transform="translate(60 815)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">5</text><text x="82" y="44" class="name">Interest</text><text x="82" y="75" class="note">Founder response</text></g>
+  <path class="flow" d="M320 920 V957"/>
+  <g transform="translate(60 970)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">6</text><text x="82" y="44" class="name">Schedule</text><text x="82" y="75" class="note">Cohort + time poll</text></g>
+  <path class="flow" d="M320 1075 V1112"/>
+  <g transform="translate(60 1125)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">7</text><text x="82" y="44" class="name">Meet</text><text x="82" y="75" class="note">Session + feedback</text></g>
+  <path class="flow" d="M320 1230 V1267"/>
+  <g transform="translate(60 1280)"><rect class="box" width="520" height="105" rx="14"/><circle class="step" cx="42" cy="52" r="23"/><text x="42" y="53" class="number">8</text><text x="82" y="44" class="name">Story</text><text x="82" y="75" class="note">Approval + outcomes</text></g>
+  <g transform="translate(625 235)"><rect class="review" width="215" height="95" rx="14"/><text x="20" y="38" class="review-name">Topics</text><text x="20" y="66" class="review-note">Review exceptions</text></g><path class="guide" d="M580 248 H625"/>
+  <g transform="translate(625 665)"><rect class="review" width="215" height="95" rx="14"/><text x="20" y="38" class="review-name">Outreach</text><text x="20" y="66" class="review-note">Preview delivery</text></g><path class="guide" d="M580 712 H625"/>
+  <g transform="translate(625 1190)"><rect class="review" width="215" height="95" rx="14"/><text x="20" y="38" class="review-name">Groups + stories</text><text x="20" y="66" class="review-note">Monitor + approve</text></g><path class="guide" d="M580 1238 H625"/>
+  <text x="60" y="1450" class="subtitle">Founder intent moves forward only through current consent.</text>
+</svg>

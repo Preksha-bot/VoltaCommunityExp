@@ -1,0 +1,2646 @@
+{
+  "scope": "Basic computed text contrast in the top-level document; disabled controls exempt; native menus, images, decorative borders and third-party Gmail/Calendar rendering excluded",
+  "threshold": 4.5,
+  "minimum_ratio": 9.123220096582767,
+  "views": [
+    {
+      "view": "signin",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 397,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "pulse",
+      "minimum_ratio": 9.504601983987186,
+      "checked_text_observations": 982,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "snapshot",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 397,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "preferences",
+      "minimum_ratio": 9.504601983987186,
+      "checked_text_observations": 1060,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 267,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "schedule&id=G001",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 351,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "feedback&id=G004",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 384,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "story&id=ST002",
+      "minimum_ratio": 9.844077185943586,
+      "checked_text_observations": 332,
+      "skipped_disabled_observations": 0,
+      "skipped_iframe_observations": 0
+    },
+    {
+      "view": "admin",
+      "minimum_ratio": 9.123220096582767,
+      "checked_text_observations": 6455,
+      "skipped_disabled_observations": 39,
+      "skipped_iframe_observations": 286
+    }
+  ],
+  "measurements": [
+    {
+      "view": "signin",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "signin",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 75,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "pulse",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 76,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "snapshot",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 31,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 81,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "preferences",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 82,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.504601983987186,
+      "minimum": {
+        "element": "input",
+        "text": "Search topics",
+        "ratio": 9.504601983987186,
+        "foreground": "rgb(170, 181, 189)",
+        "background": [
+          7,
+          10,
+          12
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 20,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "opportunity&id=opp-F001-T03-2026-10-12-371c88ef",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 21,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "schedule&id=G001",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 27,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 29,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "feedback&id=G004",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 30,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 25,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "story&id=ST002",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 26,
+      "skipped_disabled_elements": 0,
+      "skipped_iframe_elements": 0,
+      "minimum_ratio": 9.844077185943586,
+      "minimum": {
+        "element": "span",
+        "text": "Volta Pulse · Optional founder conversations",
+        "ratio": 9.844077185943586,
+        "foreground": "rgb(169, 179, 186)",
+        "background": [
+          0,
+          0,
+          0
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 320,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 360,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 390,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 768,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 1024,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 1440,
+      "variant": "normal",
+      "checked_text_nodes": 496,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 320,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 360,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 390,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 768,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 1024,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 1440,
+      "variant": "long-text-and-error",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    },
+    {
+      "view": "admin",
+      "width": 640,
+      "variant": "zoom-200-percent",
+      "checked_text_nodes": 497,
+      "skipped_disabled_elements": 3,
+      "skipped_iframe_elements": 22,
+      "minimum_ratio": 9.123220096582767,
+      "minimum": {
+        "element": "span",
+        "text": "Demo clock: Tue, Oct 13, 2026, 12:00 p.m. UTC. No live resource is act",
+        "ratio": 9.123220096582767,
+        "foreground": "rgb(188, 196, 202)",
+        "background": [
+          11,
+          36,
+          44
+        ]
+      },
+      "failures": [],
+      "unsupported": []
+    }
+  ]
+}

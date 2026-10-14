@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+const code=await fs.readFile('dist/apps-script/Code.gs','utf8');
+const html=await fs.readFile('dist/apps-script/Index.html','utf8');
+const logins=JSON.parse(await fs.readFile('fixtures/demo-logins.json','utf8'));
+const seed=JSON.parse(await fs.readFile('fixtures/seed.json','utf8'));
+const errors=[];
+for(const login of logins)if(login.demo_password&&[code,html].some(s=>s.includes(login.demo_password)))errors.push('Demo password in deployment artifact');
+for(const founder of seed.Founders)if(founder.email&&[code,html].some(s=>s.includes(founder.email)))errors.push('Fixture identity in deployment artifact');
+if(/(?:^|[^.\w])(?:require\(|process\.|Buffer\.|fetch\(|setTimeout\(|setInterval\()/.test(code))errors.push('Unsupported Node/browser server API');
+if(/class DemoAuthProvider|class FakeEmailTransport|class FakeCalendarTransport|fixtures\/seed/.test(code))errors.push('Fake adapter/seed included in Google package');
+const live=JSON.parse(await fs.readFile('docs/live-gates.json','utf8'));
+const pending=live.gates.filter(g=>g.status!=='VERIFIED');
+const boundariesPassed=errors.length===0;
+if(process.argv.includes('--live')&&pending.length)errors.push(`Live activation gates unverified: ${pending.map(g=>g.id).join(', ')}`);
+if(process.argv.includes('--live')&&live.live_activation_approved!==true)errors.push('Explicit live activation approval is absent');
+const report={artifact_boundaries_passed:boundariesPassed,live_activation_allowed:boundariesPassed&&pending.length===0&&live.live_activation_approved===true,pending_gates:pending.map(g=>g.id),errors};
+await fs.mkdir('reports',{recursive:true});await fs.writeFile('reports/release-check.json',JSON.stringify(report,null,2));
+process.stdout.write(JSON.stringify(report,null,2)+'\n');if(errors.length)process.exit(1);

@@ -1,0 +1,25 @@
+﻿company_id,company_name,sector,approved_intro,city,country,status,profile_display_consent,primary_founder_id,is_synthetic
+C001,Cedarline Labs,B2B software,Operations forecasting for small manufacturers.,Halifax,Canada,ACTIVE,TRUE,F001,TRUE
+C002,Birchbridge Health,Digital health,Appointment coordination for independent clinics.,Dartmouth,Canada,ACTIVE,TRUE,F002,TRUE
+C003,Tidemark Systems,Ocean technology,Maintenance planning for coastal infrastructure.,St. John's,Canada,ACTIVE,TRUE,F003,TRUE
+C004,Lantern Orchard,Food technology,Harvest planning tools for small orchards.,Wolfville,Canada,ACTIVE,FALSE,F004,TRUE
+C005,Marblefield Analytics,Analytics,Pricing research tools for service businesses.,Halifax,Canada,ACTIVE,TRUE,F005,TRUE
+C006,Beaconpath Climate,Climate software,Energy planning for local facilities.,Fredericton,Canada,ACTIVE,TRUE,F006,TRUE
+C007,Finchwater Data,Civic technology,Public-service workflow analytics.,Halifax,Canada,ACTIVE,TRUE,F007,TRUE
+C008,Rivermint Learning,Education technology,Practice tools for adult learning providers.,Moncton,Canada,ACTIVE,TRUE,F008,TRUE
+C009,Juniper Quay,B2B software,Document handoffs for professional service firms.,Dartmouth,Canada,ACTIVE,TRUE,F009,TRUE
+C010,Embertrail Robotics,Robotics,Inspection assistants for industrial sites.,Halifax,Canada,ACTIVE,TRUE,F010,TRUE
+C011,Mossway Commerce,Commerce software,Order planning for independent retailers.,Charlottetown,Canada,ACTIVE,TRUE,F011,TRUE
+C012,Northpine Security,Security software,Access reviews for small distributed teams.,Bedford,Canada,ACTIVE,TRUE,F012,TRUE
+C013,Copperleaf Logistics,Logistics,Delivery planning for regional distributors.,Truro,Canada,ACTIVE,TRUE,F013,TRUE
+C014,Quiet Harbor Tools,Developer tools,Build-release checks for small software teams.,Halifax,Canada,ACTIVE,TRUE,F014,TRUE
+C015,Wildfern Energy,Energy technology,Equipment monitoring for distributed energy assets.,Sydney,Canada,ACTIVE,TRUE,F015,TRUE
+C016,Seaglass Workflow,HR software,New-employee setup for growing service businesses.,Halifax,Canada,ACTIVE,TRUE,F016,TRUE
+C017,Pebblewave Studio,Product software,Guided onboarding for digital products.,Dartmouth,Canada,ACTIVE,TRUE,F017,TRUE
+C018,Larkspur Devices,Connected devices,Field equipment monitoring for small operators.,Toronto,Canada,ACTIVE,FALSE,F018,TRUE
+C019,Stillwater Agritech,Agriculture,Crop observations for community growers.,Kentville,Canada,ACTIVE,FALSE,F019,TRUE
+C020,Kestrel Works,Industrial software,Maintenance handoffs for workshop teams.,Halifax,Canada,INACTIVE,FALSE,F020,TRUE
+C021,Driftwood Research,Research tools,Interview analysis for product teams.,Ottawa,Canada,ACTIVE,FALSE,F021,TRUE
+C022,Cloverbank Finance,Business software,Invoice reconciliation for small suppliers.,Halifax,Canada,ACTIVE,FALSE,F022,TRUE
+C023,Skylane Civic,Civic technology,Trial-program coordination for local organizations.,Saint John,Canada,ACTIVE,FALSE,F023,TRUE
+C024,Aurora Thread,Hardware,Small-batch textile measurement devices.,Montreal,Canada,ACTIVE,FALSE,F024,TRUE

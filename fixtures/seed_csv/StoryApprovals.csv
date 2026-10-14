@@ -1,0 +1,5 @@
+﻿approval_id,fixture_profile,story_id,founder_id,approved_version,decision,decided_at_utc,is_synthetic,approved_text,sharing_mode
+SA001,STORY_CASES,ST001,F001,1,APPROVED,2026-10-09T12:00:00Z,TRUE,A peer conversation helped us revise the interview scorecard for our first sales hire.,ANONYMOUS
+SA002,STORY_CASES,ST002,F001,1,APPROVED,2026-10-09T12:00:00Z,TRUE,Cedarline Labs compared notes with Birchbridge Health before revising its hiring scorecard.,NAMED
+SA003,STORY_CASES,ST002,F002,1,PENDING,,TRUE,Cedarline Labs compared notes with Birchbridge Health before revising its hiring scorecard.,NAMED
+SA004,STORY_CASES,ST003,F001,1,WITHDRAWN,2026-10-12T12:00:00Z,TRUE,We changed our interview questions after a founder conversation.,ANONYMOUS

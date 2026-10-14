@@ -1,0 +1,344 @@
+[
+  {
+    "test_id": "AUTH01",
+    "fixture_profile": "BASE",
+    "test_name": "Company-ID login",
+    "setup": "Use C001 and its DemoLogins password.",
+    "expected_result": "Authenticate as F001; company ID is an alias, not a shared account.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "AUTH02",
+    "fixture_profile": "BASE",
+    "test_name": "Cofounder login",
+    "setup": "Use jules.hart and its demo password.",
+    "expected_result": "Authenticate as F025; do not expose F001 private entries.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "AUTH03",
+    "fixture_profile": "BASE",
+    "test_name": "Wrong password",
+    "setup": "Use a known or unknown ID with a wrong password.",
+    "expected_result": "Same generic error; no founder identity or account existence disclosed.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "AUTH04",
+    "fixture_profile": "BASE",
+    "test_name": "Disabled login",
+    "setup": "Use isaac.reed / C020 with its demo password.",
+    "expected_result": "Deny because the founder/company is inactive.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "AUTH05",
+    "fixture_profile": "BASE",
+    "test_name": "Server-side authorization",
+    "setup": "F001 requests or updates F002 records.",
+    "expected_result": "Forbidden; never trust a supplied founder_id or role.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA01",
+    "fixture_profile": "BASE",
+    "test_name": "Private topics",
+    "setup": "Inspect F001 private entries in snapshot payloads.",
+    "expected_result": "They may be used for matching but never for named rows or aggregate cells.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA02",
+    "fixture_profile": "BASE",
+    "test_name": "Expired entries",
+    "setup": "Inspect F021; status ACTIVE but expiry is before fixture clock.",
+    "expected_result": "Exclude from matching and snapshot; expiry evaluated at read time.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA03",
+    "fixture_profile": "BASE",
+    "test_name": "Offboarded company",
+    "setup": "Inspect F020 / C020.",
+    "expected_result": "Exclude entirely; stale ACTIVE entry state is not sufficient.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA04",
+    "fixture_profile": "BASE",
+    "test_name": "Email opt-out",
+    "setup": "Inspect F019.",
+    "expected_result": "No weekly outbound opportunities, even when a topic overlaps.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA05",
+    "fixture_profile": "BASE",
+    "test_name": "Paused founder",
+    "setup": "Inspect F018.",
+    "expected_result": "No new matching while paused; keep preferences editable.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA06",
+    "fixture_profile": "BASE",
+    "test_name": "Withdrawn entries",
+    "setup": "Inspect F022.",
+    "expected_result": "Exclude immediately; preserve minimal revocation audit.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "DATA07",
+    "fixture_profile": "BASE",
+    "test_name": "Unknown topic",
+    "setup": "Inspect F023 entry OTHER.",
+    "expected_result": "Queue for review; do not auto-match it. Other mapped experience can still qualify.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MATCH01",
+    "fixture_profile": "BASE",
+    "test_name": "One specific group topic",
+    "setup": "Inspect T01 pool.",
+    "expected_result": "Five eligible founders but only three distinct companies C001/C002/C003.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MATCH02",
+    "fixture_profile": "BASE",
+    "test_name": "Two-company pool",
+    "setup": "Inspect T10 with F018 paused.",
+    "expected_result": "Do not send opportunities; fewer than three eligible companies.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MATCH03",
+    "fixture_profile": "BASE",
+    "test_name": "No new useful match",
+    "setup": "Inspect F024 / T13.",
+    "expected_result": "No digest; do not send a weekly filler newsletter.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL01",
+    "fixture_profile": "BASE",
+    "test_name": "Combined digest",
+    "setup": "Generate first run for F001.",
+    "expected_result": "One digest with current-topic cards T01/T03 and experience card T04.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL02",
+    "fixture_profile": "BASE_MUTATION",
+    "test_name": "Maximum three cards",
+    "setup": "Clear F009 T02 history cooldown; rerun on a fresh fixture.",
+    "expected_result": "F001 now has four eligible topics; send one digest with at most three.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL03",
+    "fixture_profile": "BASE_MUTATION",
+    "test_name": "Unchanged next week",
+    "setup": "Record offered fingerprints and advance clock seven days without new peers.",
+    "expected_result": "Do not repeat unchanged opportunities.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL04",
+    "fixture_profile": "RETRY_SENT",
+    "test_name": "Same-week retry",
+    "setup": "Load BASE plus RETRY_SENT, then run the same matching week again.",
+    "expected_result": "Do not create/send a second F001 digest.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL05",
+    "fixture_profile": "BASE",
+    "test_name": "Declined topic",
+    "setup": "Inspect F008 / T06.",
+    "expected_result": "Respect NOT_NOW cooldown; no peer names or decline reason disclosed.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "MAIL06",
+    "fixture_profile": "BASE_MUTATION",
+    "test_name": "Uncertain delivery",
+    "setup": "Set a send attempt to UNKNOWN after simulated transport timeout.",
+    "expected_result": "Quarantine and reconcile; do not blindly resend.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP01",
+    "fixture_profile": "GROUP_READY",
+    "test_name": "Scheduling success",
+    "setup": "Load BASE plus GROUP_READY and process S001 availability.",
+    "expected_result": "Three companies can attend; create exactly one simulated event for G001.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP02",
+    "fixture_profile": "SAME_COMPANY_GUARD",
+    "test_name": "Distinct-company guard",
+    "setup": "Process F001/F025/F003 interest.",
+    "expected_result": "Three founders are only two companies; do not open booking.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP03",
+    "fixture_profile": "NO_COMMON_SLOT",
+    "test_name": "Scheduling mismatch",
+    "setup": "Process G002 availability.",
+    "expected_result": "No slot has three companies; keep pending, then close without manual scheduling chase.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP04",
+    "fixture_profile": "GROUP_READY_MUTATION",
+    "test_name": "Withdraw before booking",
+    "setup": "Withdraw F003 after the poll but before event creation.",
+    "expected_result": "Recheck; only two companies remain, so no invitation.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP05",
+    "fixture_profile": "GROUP_READY",
+    "test_name": "Timezone rendering",
+    "setup": "Render S001 for F001 and F003.",
+    "expected_result": "Same instant; Halifax noon and St. John's 12:30 p.m. on 20 October.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "GROUP06",
+    "fixture_profile": "BASE_MUTATION",
+    "test_name": "Daylight-saving change",
+    "setup": "Create 3 November 2026 noon in America/Halifax.",
+    "expected_result": "Store 16:00 UTC; do not reuse October's UTC offset.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "STORY01",
+    "fixture_profile": "STORY_CASES",
+    "test_name": "Approved fixture story",
+    "setup": "Render relevant T01 digest in DEMO.",
+    "expected_result": "ST001 is eligible for demo only; never send a fictional story live.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "STORY02",
+    "fixture_profile": "STORY_CASES",
+    "test_name": "Partial named approval",
+    "setup": "Inspect ST002.",
+    "expected_result": "Do not publish: F002 has not approved exact version 1.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "STORY03",
+    "fixture_profile": "STORY_CASES",
+    "test_name": "Withdrawn story",
+    "setup": "Inspect ST003.",
+    "expected_result": "Never include in future emails.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "STORY04",
+    "fixture_profile": "STORY_CASES_MUTATION",
+    "test_name": "Edited approved text",
+    "setup": "Change ST001 text and increment version.",
+    "expected_result": "Invalidate earlier approval; request exact new version approval.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "METRIC01",
+    "fixture_profile": "STORY_CASES",
+    "test_name": "Attendance is not elapsed time",
+    "setup": "Inspect FB003.",
+    "expected_result": "Did not attend; exclude from usefulness denominator; do not infer attendance.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "SAFE01",
+    "fixture_profile": "BASE",
+    "test_name": "Privacy threshold",
+    "setup": "Compute per-topic/type distinct-company cells.",
+    "expected_result": "Suppress cells below three; no exact counts or private entries exposed.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "SAFE02",
+    "fixture_profile": "BASE",
+    "test_name": "Email link scanning",
+    "setup": "Perform GET on an interest, booking or story link.",
+    "expected_result": "Show login/confirmation only; no state mutation.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "SAFE03",
+    "fixture_profile": "BASE",
+    "test_name": "Fixture safety",
+    "setup": "Try changing mode to LIVE with synthetic records present.",
+    "expected_result": "Block email/calendar side effects; empty recipient allowlist stays closed.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "SAFE04",
+    "fixture_profile": "BASE_MUTATION",
+    "test_name": "Global pause",
+    "setup": "Queue a digest and switch to PAUSED before transport.",
+    "expected_result": "Leave queued; no automated outbound email or new event creation.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "UI01",
+    "fixture_profile": "BASE",
+    "test_name": "Mobile layout",
+    "setup": "Render all founder views at 360px and 390px widths.",
+    "expected_result": "No horizontal overflow; controls and labels remain inside cards.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  },
+  {
+    "test_id": "SCOPE01",
+    "fixture_profile": "BASE",
+    "test_name": "No removed features",
+    "setup": "Inspect routes, menus, jobs and email templates.",
+    "expected_result": "No Happier Hour integration, Explore/Radar dashboard, one-to-one path, LLM or MCP.",
+    "result": "NOT_RUN",
+    "notes": "Specification test; agent must execute and record evidence."
+  }
+]

@@ -1,0 +1,57 @@
+import { expect, it } from 'vitest';
+import { createHash, randomUUID } from 'node:crypto';
+import { loadFixture, demoLogins } from '../../fixtures/load';
+import { DemoAuthProvider, type DemoLogin } from '../../src/auth';
+import { MemoryRepository, FakeCalendarTransport, FakeEmailTransport } from '../../src/adapters';
+import { PulseJobs } from '../../src/jobs';
+import { PulseService } from '../../src/service/pulse';
+import { FixedClock } from '../../src/shared/time';
+import { readConfig } from '../../src/shared/config';
+import { str, type Row } from '../../src/shared/types';
+import { storyEligible } from '../../src/domain';
+
+it('completes a clean BASE journey through one consented fake meeting, feedback permission and staff story review',()=>{
+  const repo=new MemoryRepository(loadFixture()),clock=new FixedClock(),config=readConfig(repo.read());
+  const security={id:()=>randomUUID(),digest:(v:string)=>createHash('sha256').update(v).digest('hex')};
+  const auth=new DemoAuthProvider(repo,clock,security,demoLogins as unknown as DemoLogin[],config);
+  const email=new FakeEmailTransport(clock),calendar=new FakeCalendarTransport(),jobs=new PulseJobs(repo,email,calendar,clock,config);
+  const service=new PulseService({repo,auth,jobs,clock,config,security});
+  const login=(id:string)=>{const a=demoLogins.find(a=>a.account_id===id)!;return auth.signIn(str(a,'username'),str(a,'demo_password')).credential;};
+  const call=(id:string,method:string,payload:Record<string,unknown>={})=>{const result=service.rpc({method,session:login(id),payload,requestId:randomUUID()});expect(result.ok,`${method}: ${result.errorCode||''}`).toBe(true);return result.data as Record<string,unknown>;};
+  const admin=str(demoLogins.find(a=>a.account_role==='ADMIN')!,'account_id');
+  const mine=call('F001','getMyPulse') as {entries:Row[];revision:number};
+  const confirmation=mine.entries[0].confirmed_at_utc;
+  call('F001','saveMyPulse',{entries:mine.entries.map(e=>({entry_id:e.entry_id,topic_id:e.topic_id,entry_type:e.entry_type,visibility:e.visibility,private_context:'A private demo note'})),email_opt_in:true,expectedRevision:mine.revision});
+  expect((call('F001','getMyPulse') as {entries:Row[]}).entries[0].confirmed_at_utc).toBe(confirmation);
+  const run=call(admin,'adminAction',{action:'PREVIEW_RUN',payload:{}});
+  expect(run.queued).toBe(21);expect(run.cards).toBe(32);
+  expect(JSON.stringify(call('F001','getMonthlySnapshot'))).not.toContain('A private demo note');
+  call(admin,'adminAction',{action:'SIMULATE_OUTBOX',payload:{}});
+  expect(repo.read().WeeklyEmails.filter(e=>e.type==='DIGEST'&&e.status==='SENT'&&e.matching_week_key===run.week_key)).toHaveLength(21);
+  for(const founderId of ['F001','F002','F003']){
+    const offer=repo.read().Opportunities.find(o=>o.founder_id===founderId&&o.topic_id==='T01')!;
+    call(founderId,'recordInterest',{opportunityId:offer.opportunity_id,decision:'INTERESTED'});
+    expect(repo.read().OutreachHistory.find(h=>h.opportunity_id===offer.opportunity_id)!.response).toBe('INTERESTED');
+  }
+  const group=repo.read().Conversations.find(g=>g.topic_id==='T01')!,groupId=str(group,'conversation_id');
+  const scheduling=call('F001','getScheduling',{conversationId:groupId}) as {slots:Row[]};
+  expect(scheduling.slots).toHaveLength(2);expect(str(scheduling.slots[0],'start_at_utc').slice(0,10)).not.toBe(str(scheduling.slots[1],'start_at_utc').slice(0,10));
+  for(const founderId of ['F001','F002','F003'])call(founderId,'saveAvailability',{conversationId:groupId,slots:[scheduling.slots[0].slot_id],booking_consent:true,identity_disclosure_consent:true});
+  expect(calendar.trace.filter(t=>t.action==='invite')).toHaveLength(0);
+  const booked=call(admin,'adminAction',{action:'SIMULATE_BOOKING',payload:{conversationId:groupId}});
+  expect(booked.status).toBe('CONFIRMED');expect(calendar.trace.filter(t=>t.action==='reserve')).toHaveLength(1);expect(calendar.trace.filter(t=>t.action==='invite')).toHaveLength(1);
+  expect((call('F001','getScheduling',{conversationId:groupId}).conversation as Row).meet_url).toContain('https://');
+  clock.advance((Date.parse(str(scheduling.slots[0],'end_at_utc'))+25*3600000-Date.parse(clock.now()))/86400000);
+  jobs.housekeeping();
+  const feedback=call('F001','submitFeedback',{conversationId:groupId,attendance_status:'attended',helped_boolean:true,feedback_text:'We tested clearer interview questions.',sharing_permission:'anonymous_story',no_show_reason:''});
+  const storyId=String(feedback.story_id),exact='Comparing notes helped us test clearer interview questions.';
+  expect(storyEligible(repo.read(),repo.read().Stories.find(s=>s.story_id===storyId)!,clock.now(),'DEMO')).toBe(false);
+  call(admin,'adminAction',{action:'EDIT_STORY_DRAFT',payload:{storyId,approved_text:exact}});
+  call(admin,'adminAction',{action:'APPROVE_STORY',payload:{storyId}});
+  const story=repo.read().Stories.find(s=>s.story_id===storyId)!;
+  expect(story.approved_text).toBe(exact);expect(storyEligible(repo.read(),story,clock.now(),'DEMO')).toBe(true);
+  expect(storyEligible(repo.read(),story,clock.now(),'LIVE')).toBe(false);
+  const metrics=call(admin,'getAdmin').metrics as Record<string,unknown>;
+  expect(metrics.feedback_responses).toBe(1);expect(metrics.reported_useful_percent).toBe(100);expect(metrics.approved_stories).toBe(1);expect(metrics.completed_conversations).toBe(1);
+  expect(config.environment).toBe('DEMO');expect(config.outreach_mode).toBe('DRAFT_ONLY');
+});

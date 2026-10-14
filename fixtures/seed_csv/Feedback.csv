@@ -1,0 +1,4 @@
+﻿feedback_id,fixture_profile,conversation_id,founder_id,attended,usefulness,next_step,follow_on_contact,story_requested,created_at_utc,is_synthetic
+FB001,STORY_CASES,G004,F001,YES,YES,Revised the first-sales-hire interview scorecard.,PLANNED,TRUE,2026-10-08T12:00:00Z,TRUE
+FB002,STORY_CASES,G004,F002,YES,SOMEWHAT,Compared hiring timing with two peers.,NO,FALSE,2026-10-08T12:00:00Z,TRUE
+FB003,STORY_CASES,G004,F003,NO,,,,FALSE,2026-10-08T12:00:00Z,TRUE

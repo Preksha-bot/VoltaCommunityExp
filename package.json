@@ -1,0 +1,33 @@
+{
+  "name": "volta-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "tsx src/server/local.ts",
+    "demo:start": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-demo.ps1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "build": "node scripts/build.mjs",
+    "fixtures:import": "python scripts/import_fixtures.py",
+    "fixtures:validate": "tsx scripts/validate-fixtures.ts",
+    "check": "npm run typecheck && npm run fixtures:validate && node scripts/check-boundaries.mjs",
+    "verify": "npm run check && npm run build && npm run test && npm run test:e2e && node scripts/acceptance-report.mjs && npm run release:check",
+    "release:check": "node scripts/release-check.mjs",
+    "hooks:install": "git config --local core.hooksPath .githooks"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/google-apps-script": "^1.0.100",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^5.0.4"
+  }
+}

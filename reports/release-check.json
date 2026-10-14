@@ -1,0 +1,15 @@
+{
+  "artifact_boundaries_passed": true,
+  "live_activation_allowed": false,
+  "pending_gates": [
+    "portal",
+    "auth",
+    "workspace",
+    "policies",
+    "brand",
+    "operations",
+    "participants",
+    "activation"
+  ],
+  "errors": []
+}

@@ -1,0 +1,33 @@
+﻿setting_key,setting_value,explanation
+schema_version,1.0,Confirmed artifact version
+environment,DEMO,Fixture safety: no network side effects
+outreach_mode,DRAFT_ONLY,"Store email previews, not live sends"
+fixture_now_utc,2026-10-13T12:00:00Z,Inject this clock in deterministic tests
+matching_timezone,America/Halifax,"Default; use IANA zones, not fixed offsets"
+matching_day,MONDAY,Default; weekly run
+matching_hour_local,09,Approximate Apps Script trigger window
+max_digest_per_founder_per_week,1,User-confirmed consolidated email cadence
+max_cards_per_digest,3,"Build default, not three separate emails"
+min_potential_companies,3,Default before offering group interest
+min_confirmed_companies,3,User-confirmed scheduling threshold
+max_group_participants,5,Default; at most one representative per company
+meeting_duration_minutes,30,"Default; one meeting, not a recurring series"
+current_topic_ttl_days,30,Default after explicit confirmation
+experience_topic_ttl_days,90,Default after explicit confirmation
+interest_ttl_days,14,Default; time-limited willingness
+opportunity_cooldown_days,30,Do not repeat ignored/declined opportunities
+repeat_peer_cooldown_days,60,Default; avoid repeated same-topic cohorts
+max_active_groups_per_founder,1,Protect founder time
+snapshot_cell_min_companies,2,Show exact anonymous counts only when at least two consented companies contribute to a topic
+snapshot_buckets,3-5|6-10|11+,No exact live counters
+poll_window_days,5,One scheduling poll per cohort
+poll_reminder_after_hours,48,One scheduling reminder at most
+feedback_delay_hours,24,Do not equate elapsed meeting with attendance
+automatic_story_reminders,0,No chasing publication consent
+runtime_logging_retention_days,90,Proposed; approve before live launch
+test_recipient_allowlist,,Empty: no testing mail can leave by default
+live_sender_address,,GATE: supply a Volta-owned authorized mailbox
+live_calendar_id,,GATE: supply a Volta-owned calendar
+auth_backend,DEMO_ADAPTER,Live verifier must be approved and security-reviewed
+brand_reference_url,https://voltaeffect.com/,Inspect live computed CSS; do not guess official tokens
+authenticated_return_url,,GATE: fixed allowlisted portal-complete URL

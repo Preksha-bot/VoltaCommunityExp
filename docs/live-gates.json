@@ -1,0 +1,13 @@
+{
+  "live_activation_approved": false,
+  "gates": [
+    {"id":"portal","status":"NOT_CONFIGURED","requires":"Actual review-complete page, fixed return URL and redirect with no private-review payload"},
+    {"id":"auth","status":"NOT_CONFIGURED","requires":"Approved Firebase/Identity Platform verifier, account ownership, provisioning/reset and security review"},
+    {"id":"workspace","status":"NOT_CONFIGURED","requires":"Volta deployment owner, restricted Sheet, sender, monitored reply address, Calendar/Meet permissions and approved OAuth scopes"},
+    {"id":"policies","status":"NOT_CONFIGURED","requires":"Consent wording, authorized company publication, retention/deletion, processor and hosting approval"},
+    {"id":"brand","status":"NOT_CONFIGURED","requires":"Brand/UI sign-off and permission for any fonts/logo assets; computed CSS inspected in demo"},
+    {"id":"operations","status":"NOT_CONFIGURED","requires":"Technical/backup owner, support destination, slot windows, quotas, watchdog/total-trigger-silence monitoring, tested backup/restore, and an approved structured model gateway with prompt/version governance"},
+    {"id":"participants","status":"NOT_CONFIGURED","requires":"Nonsynthetic individual accounts and fresh explicit consents; fictional records cannot be relabelled"},
+    {"id":"activation","status":"NOT_CONFIGURED","requires":"Explicit TEST destinations/integration verification followed by approval to leave DRAFT_ONLY"}
+  ]
+}

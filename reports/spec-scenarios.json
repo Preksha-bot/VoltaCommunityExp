@@ -1,0 +1,198 @@
+{
+  "executed_at_utc": "2026-10-14T14:10:18.383Z",
+  "fixture_clock": "2026-10-13T12:00:00Z",
+  "environment": "DEMO",
+  "external_integrations": "NOT_VERIFIED",
+  "tests": [
+    {
+      "test_id": "AUTH01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "AUTH02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "AUTH03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "AUTH04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "AUTH05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "DATA07",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MATCH01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MATCH02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MATCH03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "MAIL06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP05",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "GROUP06",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "STORY01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "STORY02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "STORY03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "STORY04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "METRIC01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "SAFE01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "SAFE02",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "SAFE03",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "SAFE04",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    },
+    {
+      "test_id": "UI01",
+      "result": "PENDING_BROWSER",
+      "observed": "Awaiting measured Playwright width/zoom/button containment result."
+    },
+    {
+      "test_id": "SCOPE01",
+      "result": "PASS",
+      "observed": "Executed assertions against application/domain/adapter state with fresh fixture profile."
+    }
+  ]
+}

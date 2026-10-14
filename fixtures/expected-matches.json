@@ -1,0 +1,533 @@
+[
+  {
+    "founder_id": "F001",
+    "topic_id": "T01",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F002",
+    "topic_id": "T01",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F003",
+    "topic_id": "T01",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F025",
+    "topic_id": "T01",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F026",
+    "topic_id": "T01",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F001",
+    "topic_id": "T03",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 5,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C004",
+      "C005",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-09T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F002",
+    "topic_id": "T03",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 5,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C004",
+      "C005",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F004",
+    "topic_id": "T03",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 5,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C004",
+      "C005",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F005",
+    "topic_id": "T03",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 5,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C004",
+      "C005",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F011",
+    "topic_id": "T03",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 5,
+    "potential_company_ids": [
+      "C001",
+      "C002",
+      "C004",
+      "C005",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F001",
+    "topic_id": "T04",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C001",
+      "C003",
+      "C005",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-09T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F003",
+    "topic_id": "T04",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C001",
+      "C003",
+      "C005",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F005",
+    "topic_id": "T04",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C001",
+      "C003",
+      "C005",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-10T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F013",
+    "topic_id": "T04",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C001",
+      "C003",
+      "C005",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F004",
+    "topic_id": "T05",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C004",
+      "C005",
+      "C006"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F005",
+    "topic_id": "T05",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C004",
+      "C005",
+      "C006"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F006",
+    "topic_id": "T05",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C004",
+      "C005",
+      "C006"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F007",
+    "topic_id": "T07",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C007",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F009",
+    "topic_id": "T07",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C007",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "score": 90,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F010",
+    "topic_id": "T07",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C007",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F011",
+    "topic_id": "T07",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C007",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F027",
+    "topic_id": "T07",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 4,
+    "potential_company_ids": [
+      "C007",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F010",
+    "topic_id": "T08",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C010",
+      "C012",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F012",
+    "topic_id": "T08",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C010",
+      "C012",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F013",
+    "topic_id": "T08",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C010",
+      "C012",
+      "C013"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F012",
+    "topic_id": "T09",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C012",
+      "C014",
+      "C015"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F014",
+    "topic_id": "T09",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C012",
+      "C014",
+      "C015"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F015",
+    "topic_id": "T09",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C012",
+      "C014",
+      "C015"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F028",
+    "topic_id": "T09",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C012",
+      "C014",
+      "C015"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F016",
+    "topic_id": "T11",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C016",
+      "C017",
+      "C023"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F017",
+    "topic_id": "T11",
+    "participation_role": "WORKING_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C016",
+      "C017",
+      "C023"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  },
+  {
+    "founder_id": "F023",
+    "topic_id": "T11",
+    "participation_role": "LIVED_THROUGH",
+    "potential_company_count": 3,
+    "potential_company_ids": [
+      "C016",
+      "C017",
+      "C023"
+    ],
+    "score": 95,
+    "own_confirmed_at_utc": "2026-10-05T12:00:00Z",
+    "in_first_digest": true,
+    "expected_action": "OFFER_INTEREST",
+    "explanation": "BASE eligible pool; distinct-company threshold met; no identities in email."
+  }
+]

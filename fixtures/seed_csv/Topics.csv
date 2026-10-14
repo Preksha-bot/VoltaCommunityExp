@@ -1,0 +1,15 @@
+﻿topic_id,topic_label,category,synonyms,description,auto_match_enabled,active,is_synthetic
+T01,Hiring the first salesperson,Sales hiring,first sales hire;first AE,"Role design, timing and compensation for the first sales hire.",TRUE,TRUE,TRUE
+T02,Selling to enterprise customers,Sales,enterprise sales;paid pilots,"Early enterprise buyers, pilots and procurement steps.",TRUE,TRUE,TRUE
+T03,Pricing a first paid offer,Pricing,pricing;paid offer,"Initial packaging and pricing tests, not general finance.",TRUE,TRUE,TRUE
+T04,Preparing a seed round,Fundraising,seed round;fundraising preparation,Founder experiences preparing a seed fundraising process.,TRUE,TRUE,TRUE
+T05,Entering the US market,Expansion,US expansion;United States entry,Practical first steps for a US market entry.,TRUE,TRUE,TRUE
+T06,Selling to government,Sales,public procurement;municipal sales,Experiences with public-sector buyers.,TRUE,TRUE,TRUE
+T07,Finding the first paying customer,Customer acquisition,first customer;first paid customer,Securing initial paying users.,TRUE,TRUE,TRUE
+T08,Hiring a first technical employee,Hiring,technical hiring;first developer,Moving from founder-only engineering to a first hire.,TRUE,TRUE,TRUE
+T09,Preparing for SOC 2,Compliance,SOC2;SOC 2,"Peer process experience, not certification advice.",TRUE,TRUE,TRUE
+T10,Building a first channel partnership,Partnerships,channel partnerships;reseller,Testing a first reseller or distribution partnership.,TRUE,TRUE,TRUE
+T11,Choosing an HR platform,Operations,HR software;HR platform,Sharing implementation experience with HR tools.,TRUE,TRUE,TRUE
+T12,Improving product onboarding,Product,activation;user onboarding,Helping new users reach a first useful outcome.,TRUE,TRUE,TRUE
+T13,Small-batch hardware manufacturing,Hardware,small batch;hardware manufacturing,Supplier and manufacturing experience at small volumes.,TRUE,TRUE,TRUE
+OTHER,Something else,Unmapped,,Private review queue; never automatically matched.,FALSE,TRUE,TRUE

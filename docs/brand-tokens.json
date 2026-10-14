@@ -1,0 +1,28 @@
+{
+  "source_url": "https://voltaeffect.com/",
+  "checked_date": "2026-10-13",
+  "verification_method": "Read-only live browser getComputedStyle and accessible stylesheet rules on the home page",
+  "status": "REFERENCE_VERIFIED_ASSET_PERMISSION_PENDING",
+  "observed": {
+    "page_background": "#000000",
+    "text": "#ffffff",
+    "body_font": "Inter, Inter Fallback, Inter, sans-serif",
+    "heading_font": "neue-haas-grotesk-display, Inter, Inter Fallback, sans-serif",
+    "body_size": "16px",
+    "body_line_height": "24px",
+    "heading_size_desktop": "53px",
+    "heading_weight": "600",
+    "heading_line_height": "60px",
+    "primary_button": { "gradient": "linear-gradient(315deg, #6101ff, #05d9e7 34%, #ff6d6d 78%, #ffbb0e)", "inner_background": "#000000", "text": "#ffffff", "outer_radius": "80px", "inner_radius": "60px", "inner_padding": "16px 25px", "hover_gradient_angle": "225deg", "hover_opacity": "0.92" },
+    "section_surfaces": ["#070809", "#000000", "#050506"],
+    "section_spacing": "104px 40px",
+    "stylesheet_urls": ["https://voltaeffect.com/_next/static/chunks/2shl_5rfy4fr8.css", "https://use.typekit.net/snq5lqe.css"]
+  },
+  "implementation_choices": {
+    "note": "App-specific surfaces, borders, muted text and compact spacing are demo design choices rather than claims of official Volta tokens.",
+    "surface": "#101214", "muted_text": "#bcc4ca", "border": "#3e454c", "control_radius": "10px", "card_radius": "15px", "shell_width": "46rem", "touch_target": "44px",
+    "font_fallback": "Inter, Segoe UI, Arial, sans-serif; no downloaded or remotely requested font files",
+    "focus": "#ffbb0e", "link": "#91eaf0"
+  },
+  "asset_provenance": { "logo": "Text-only application wordmark; no logo copied", "fonts": "No font files or Typekit resources distributed", "photographs": "None used", "approval_gate": "Volta owner must approve brand application and font/logo licensing before live design sign-off" }
+}

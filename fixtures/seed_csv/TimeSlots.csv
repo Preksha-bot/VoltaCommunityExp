@@ -1,0 +1,6 @@
+﻿slot_id,fixture_profile,conversation_id,option_label,start_at_utc,end_at_utc,display_timezone,minimum_notice_hours,is_synthetic
+S001,GROUP_READY,G001,A,2026-10-20T15:00:00Z,2026-10-20T15:30:00Z,America/Halifax,48,TRUE
+S002,GROUP_READY,G001,B,2026-10-21T18:00:00Z,2026-10-21T18:30:00Z,America/Halifax,48,TRUE
+S003,NO_COMMON_SLOT,G002,A,2026-10-22T15:00:00Z,2026-10-22T15:30:00Z,America/Halifax,48,TRUE
+S004,NO_COMMON_SLOT,G002,B,2026-10-23T18:00:00Z,2026-10-23T18:30:00Z,America/Halifax,48,TRUE
+S007,STORY_CASES,G004,A,2026-10-06T15:00:00Z,2026-10-06T15:30:00Z,America/Halifax,48,TRUE
